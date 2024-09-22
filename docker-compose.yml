@@ -1,0 +1,7 @@
+version: "3"
+services:
+  DemoContainer:
+    image: dockerdemoimage
+    ports:
+      - "8093:80"
+      
